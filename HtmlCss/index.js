@@ -1,0 +1,1 @@
+document.getElementById("myId").innerHTML="Hello!! vinay kumar ranjan";

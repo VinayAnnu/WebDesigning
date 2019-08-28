@@ -1,0 +1,75 @@
+:root {
+    font-size: 16px; }
+  
+  body {
+    margin: 0;
+    padding: 0; }
+  
+  .container {
+    display: block;  
+    margin: 50px; }
+  
+  .banner .card {
+    background: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px 2px #35eea4;
+    display: block;
+    }
+    .banner .card .heading {
+      color: #35eea4;
+      font-family: "Playfair Display", serif;
+      font-size: 64px;
+      font-weight: 700;
+      margin-bottom: 5px;
+      padding: 40px; }
+    .banner .card .sub-heading {
+      color: #35eea4;
+      font-family: "Playfair Display", serif;
+      font-size: 21px;
+      margin: 0;
+      padding: 0 30px 30px; }
+      .banner .card .sub-heading button {
+        background: none;
+        border: none;
+        border-radius: 5px;
+        color: #35eea4;
+        font-family: "Istok Web", sans-serif;
+        font-size: 16px;
+        letter-spacing: 8px;
+        margin-top: 20px;
+        padding: 10px;
+        text-transform: uppercase;
+        transition: box-shadow 0.3s linear 0.1s; }
+      .banner .card .sub-heading button:hover {
+        cursor: pointer;
+        box-shadow: 0 3px 20px 0 #35eea4; }
+  
+  .row {
+    display: block;
+  
+    margin-top: 30px; }
+  
+    .row .my-image {
+      border: 1px solid #35eea4;
+      border-radius: 5px;
+      box-shadow: 0px 3px 20px 2px #2c2c2c;
+      width: 250px;
+      float: right;
+    }
+  
+  .paragraph {
+    float: left;
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    width: 600px;
+  }
+  
+  .icon-group {
+    margin-top: 20px; }
+    .icon-group .icon {
+      margin-right: 10px;
+      width: 25px; }
+  
+  
+  

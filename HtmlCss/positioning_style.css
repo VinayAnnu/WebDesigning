@@ -1,0 +1,29 @@
+html {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+
+}
+
+header {
+    background-color: #f073e1;
+    margin: 0px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+nav {
+    background-color: #f073e1;
+    margin: 10px;
+}
+
+footer {
+    background-color: #f073e1; 
+    margin: 10px;
+}

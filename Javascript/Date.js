@@ -1,0 +1,7 @@
+var today=new Date(Date.now())
+alert(today)
+var someday=new Date("2015-02-28")
+alert(someday)
+alert(someday.getDate())
+alert(someday.getDay())
+alert(someday.getFullYear())

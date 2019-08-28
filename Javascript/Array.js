@@ -1,3 +1,4 @@
+//Added a comment
 var arr=[1,2,3,4]
 var str=["vinay","kumar","Ranjan"]
 console.log(arr[2])//The 2 in arr[2] is coerced into a string by the JavaScript engine through an implicit toString conversion.

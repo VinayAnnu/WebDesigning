@@ -1,0 +1,59 @@
+:root {
+    font-size: 25px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    
+    background-color: aqua;
+}
+
+.container{
+    margin: 5vw;
+}
+
+.container-item{
+    background-color: blue;
+}
+
+.container-font{
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+/* media quey started */
+@media screen and (min-width: 768px) {
+    .container-item{
+        height: 30vw;
+        background-color: blue;
+    }
+    .container-item .container-font {
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .container-item{
+        height: 60vw;
+        background-color: rgb(51, 255, 0);
+    }
+    .container-font {
+        font-size: 1.5rem;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-item{
+        height: 120vw;
+        background-color: seagreen;
+    }
+    .container-font {
+        font-size: 1rem;
+        color: blueviolet;
+    }
+}

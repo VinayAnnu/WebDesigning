@@ -1,0 +1,30 @@
+.my-container {
+    display: flex;   
+    
+    align-items: flex-end;  
+    /*flex-wrap: wrap;*/
+    width: 100%;
+    
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    height: 300px;
+}
+
+.container-item {
+    margin: 1%;
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+}
+
+.my-font{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+
+
+}
+
+

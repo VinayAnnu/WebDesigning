@@ -1,0 +1,51 @@
+
+.parent {
+    display: flex;
+     /* flex-wrap: wrap;   */
+    /* flex-direction: row-reverse; */
+     /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /*justify-content: space-around;*/ /* justify-content work on 'x' axis */
+    /*align-items: flex-end;*/ /*align items work on 'y' axis */
+    /* align-items: stretch; */
+    /*align-content: center;*/  /*align-content also work on 'y' axis*/
+    align-content: space-between;
+    width: 50%;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    height: 60%;
+}
+
+.item {
+    margin: 1%;
+    background-color: blue;
+    width: 20%;
+    height: 50px;
+}
+
+.my-font {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+.item:nth-child(2) {
+    margin: 1%;
+    background-color: rgb(255, 0, 179);
+    width: 10%;
+    height: 50px;
+}
+.item:nth-child(4) {
+    margin: 1%;
+    background-color: rgb(208, 255, 0);
+    flex-grow: 3;
+}
+.item:nth-child(3) {
+    align-self: flex-end;
+}

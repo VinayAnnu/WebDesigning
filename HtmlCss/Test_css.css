@@ -1,15 +1,15 @@
 .parent{
     background:cyan; 
-    height: 70vmin;
+    height: 70vmax;
     width: 50vw;
 }
 .parent .child{
     background:lime;
-    height: 50vh;
+    height: 50vmax;
     width: 60vw; 
 }
 .parent .child .second-child{
     background: rgba(143, 130, 16, 0.87);
     height: 2vmax;
-    width: 80vmax;
+    width: 80vw;
 }

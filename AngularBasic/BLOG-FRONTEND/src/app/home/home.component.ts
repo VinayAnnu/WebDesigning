@@ -45,15 +45,14 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit, OnChange
       "category": "sdkjhgjhsjgkh",
       "blogBody": "jdshgjhj"
     }
-    let authToken = "NmY1MzFiNTNhY2MzMzlhNDZiNWI1ZjZkMWJjOWQ3NDcwZjE0YmY1ZDMxMWI2YThmNjFlZDgwOGYxOWUwMDVjNDRkMjYwOGMwM2RjMjNkMmQwYTVhMzc5OGExNmJlYzgwY2NjMDQ5Mzk1YmY0OTlmZTQzNTcxMGM4Y2JkMzRlNzJlMA"
+    let authToken = "MjliMDJlMGU4MGM5Mzc2ODBmODE1MDA4MWEyYjJkZWM1NTA4MThkNzA2ZDliM2M4Yjc3OTlhYWZkOWNlMGQ2OTQ2ZjFmOGE4Y2Y0ZDY4MzhkMDMwZTc0OGNmYTBmMmFhZGQ4NDZhN2NlMTRjNmQ1ZjI3ZTU3YTliZTNkOTk5ODY1YQ=="
     this.http.post('https://blogapp.edwisor.com/api/v1/blogs/create', jsonBody, { params: { authToken: authToken } }).subscribe((data) => {
       console.log('object :', JSON.stringify(data));
     })
   }
   getRequest() {
-    let para=new HttpParams().append('blogId','_-FssvNLw');
-    let token = "NmY1MzFiNTNhY2MzMzlhNDZiNWI1ZjZkMWJjOWQ3NDcwZjE0YmY1ZDMxMWI2YThmNjFlZDgwOGYxOWUwMDVjNDRkMjYwOGMwM2RjMjNkMmQwYTVhMzc5OGExNmJlYzgwY2NjMDQ5Mzk1YmY0OTlmZTQzNTcxMGM4Y2JkMzRlNzJlMA=="
-    this.http.get('https://blogapp.edwisor.com/api/v1/blogs/view/', { params: { authToken: token, blogId: "_-FssvNLw" } }).subscribe((data2) => {
+    let token = "MjliMDJlMGU4MGM5Mzc2ODBmODE1MDA4MWEyYjJkZWM1NTA4MThkNzA2ZDliM2M4Yjc3OTlhYWZkOWNlMGQ2OTQ2ZjFmOGE4Y2Y0ZDY4MzhkMDMwZTc0OGNmYTBmMmFhZGQ4NDZhN2NlMTRjNmQ1ZjI3ZTU3YTliZTNkOTk5ODY1YQ=="
+    this.http.get('https://blogapp.edwisor.com/api/v1/blogs/view/5qKYFmYYP"', { params: { authToken: token } }).subscribe((data2) => {
       console.log('object2:', JSON.stringify(data2))
     })
   }

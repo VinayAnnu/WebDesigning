@@ -19,7 +19,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.26",
-    "mongoose": "^5.7.1",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "pino": "^5.13.4",
     "request": "^2.88.0",

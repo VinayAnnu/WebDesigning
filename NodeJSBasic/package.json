@@ -15,7 +15,7 @@
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "helmet": "^3.21.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.26",
     "mongoose": "^5.7.1",
     "pino": "^5.13.4",
